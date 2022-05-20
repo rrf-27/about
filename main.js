@@ -1,6 +1,8 @@
 
 
 function mainText() {
+    var thebody = document.body;
+    thebody.style.overflow = "hidden";
     i=0;
     text = "Welcome!!!";
     function selfWriting() {
@@ -14,6 +16,8 @@ function mainText() {
     setTimeout( function() {
         document.getElementById("cover").style.animation = "clipping .5s linear";
         document.getElementById("cover").style.display = "none";
+        thebody.style.overflowX = "hidden";
+        thebody.style.overflowY = "visible";
     }, 1700);
     var cutie = document.getElementById("boxx");
     cutie.style.opacity = "0";
