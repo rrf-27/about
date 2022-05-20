@@ -19,6 +19,7 @@ html, body {
     background: rgba(0, 0, 0, 1);
     color:rgba(0, 0, 0, 1);
     font-family: 'Roboto Flex', sans-serif;
+    overflow-x: hidden;
 }
 
 body {
@@ -69,6 +70,7 @@ p {
     top: calc(50% - 15.625rem);
     left: calc(50% - 15.625rem);
     box-shadow: 0 0 .625rem .313rem rgba(0, 0, 0, 1);
+    overflow: hidden;
 }
 
 .box-heading {
@@ -155,10 +157,6 @@ img {
 
 .box-heading, #cover, .box-content, .box-social-media, .box-image, .box-title {
     width: 100%;
-}
-
-.box, html, body {
-    overflow: hidden;
 }
 
 .box-image img, .social-media-icon {
