@@ -183,6 +183,7 @@ img {
 @media (max-width: 512px) {
     .box {
         width: 90%;
+        max-width: 90% !important;
         height: 30rem;
         left: 5%;
     }
